@@ -1,0 +1,95 @@
+#Characters {
+    background-color: #f9fbff;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 10% 70vh;
+    grid-template-areas:
+        ". title-character ."
+        "back-arrow main-character forward-arrow";
+    /*justify-content: space-between;*/
+    align-content: start;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+}
+
+#title-character {
+    grid-area: title-character;
+    justify-self: center;
+    align-self: center;
+}
+
+#back-arrow {
+    grid-area: back-arrow;
+}
+
+#forward-arrow {
+    grid-area: forward-arrow;
+}
+
+#img-character {
+    grid-area: img;
+}
+
+#desc-character {
+    grid-area: desc;
+}
+
+#main-character {
+    grid-area: main-character;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "img" "desc";
+    justify-content: center;
+    /*justify-items: center;*/
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    #main-character {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: normal;
+    grid-template-areas:
+        "img"
+        "desc";
+}
+    #Characters {
+        grid-template-columns: 1fr 8fr 1fr;
+    }
+
+    #img-character {
+    justify-self: end;
+}
+}
+
+#main-character > div > img {
+    width: 65%;
+}
+
+.arrows {
+    padding: 5px 17px;
+    color: black;
+}
+
+.arrows-circle {
+    background-color: #4286f4;
+    border-radius: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.arrows {
+    -moz-user-select: none;
+}
+
+.arrows-circle:hover {
+    opacity: 1;
+}
+
+.arrows-wrapper {
+    align-self: center;
+    justify-self: center;
+}

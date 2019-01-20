@@ -1,0 +1,57 @@
+#main-about {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-template-rows: 1fr  1fr;
+    grid-template-areas:
+            "logo"
+            "main-about";
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    grid-area: logo;
+    justify-self: center;
+    /*z-index: 1;*/
+}
+
+#main-about {
+    grid-area: main-about;
+    color: #fff;
+}
+
+#logo > img {
+    width: 100%;
+}
+
+#desc-about {
+    text-shadow: black 0 0 2px;
+}
+
+#bc {
+    position: fixed;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#background {
+    background-image: url(../img/ainz0.jpg);
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: top;
+    position: fixed;
+    z-index: -2;
+}
+
+@media (max-width: 850px) {
+    #main-about {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr  1fr;
+        grid-template-areas:
+                "logo"
+                "main-about";
+        /*align-items: center;*/
+    }
+}

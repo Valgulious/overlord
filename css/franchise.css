@@ -1,0 +1,104 @@
+#Franchise {
+    background-color: #d1d1d1;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: 10% 70vh;
+    grid-template-areas:
+            ". franchise-character ."
+            "card1 card2 card3";
+    justify-content: space-around;
+    /*align-content: center;*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+}
+
+#franchise-character {
+    grid-area: franchise-character;
+    justify-self: center;
+    align-self: center;
+}
+
+#card1 {
+    grid-area: card1;
+    background-image: url(../img/overlord_ranobe.jpg);
+    background-size: cover;
+}
+
+#card2 {
+    grid-area: card2;
+    background-image: url(../img/overlord_manga.jpg);
+    background-size: cover;
+}
+
+#card3 {
+    grid-area: card3;
+    background-image: url(../img/overlord_anime.jpg);
+    background-size: cover;
+}
+
+.card {
+    /*background-color: white;*/
+    border-radius: 5px;
+    width: 20vw;
+    height: 60vh;
+    align-self: center;
+    background-position: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: 0.8s;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.card > h1 {
+    position: relative;
+    color: #fff;
+    text-shadow: black 0 0 15px;
+    top: 25vh;
+    /*right: -6.5vw;*/
+    text-align: center;
+}
+
+.icons {
+    position: relative;
+    top: 45vh;
+    right: 3vw;
+    transform: scale(0.4);
+    opacity: 0;
+    transition: 0.3s;
+    /*transition-delay: 0.5s;*/
+}
+
+/*.sh-ic:hover {*/
+    /*opacity: 0.8;*/
+/*}*/
+
+@media (max-width: 700px) {
+    #Franchise {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "franchise-character"
+            "card1"
+            "card2"
+            "card3";
+    }
+
+    .card {
+        width: 40vh;
+        /*height: 40vh;*/
+        justify-self: center;
+        margin: 20px 0;
+    }
+
+    /*.card > h1 {*/
+        /*top: -20vh;*/
+    /*}*/
+}

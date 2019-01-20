@@ -1,0 +1,22 @@
+nav {
+	position: fixed;
+	text-align: center;
+    z-index: 2;
+}
+
+.menu {
+    background-color: #4286f4;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    position: relative;
+    border-radius: 3px;
+    left: -100px;
+    transition-property: left;
+    transition-duration: 500ms;
+    color: white;
+}
+
+.menu:hover {
+    left: -10px;
+}

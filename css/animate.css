@@ -1,0 +1,32 @@
+.card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    /*box-shadow: 0 0 10px 5px #4286f4 ;*/
+    width: 20vw;
+    height: 0;
+    background: rgba(66, 134, 244, 1);
+    transition: 0.8s;
+}
+
+.card:hover::before {
+    height: 10vh;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .icons {
+    opacity: 1;
+    transition: 0.8s;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 700px) {
+    .card::before {
+        width: 40vh;
+    }
+}
