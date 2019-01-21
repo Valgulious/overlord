@@ -25,6 +25,10 @@
     transition-delay: 0.3s;
 }
 
+.img-ico:hover {
+    opacity: 1;
+}
+
 @media (max-width: 700px) {
     .card::before {
         width: 40vh;

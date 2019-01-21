@@ -32,8 +32,7 @@ task('clear', function () {
 });
 
 task('image', function () {
-    return src('./img/*')
-        .pipe(useref())
+    return src('./img/**/*')
         .pipe(dest('dist/img'))
 });
 
