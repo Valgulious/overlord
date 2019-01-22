@@ -1,22 +1,22 @@
 [
   {
-    "img": "img/characters/Ainz_Anime_New.png",
+    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/5/52/Ainz_Anime_New.png/revision/latest?cb=20181005160139&path-prefix=ru",
     "name": "Аинз Оал Гоун",
     "description": "Аинз Оал Гоун, ранее известный как Момонга, главный герой серии Overlord. Он гильдмастер Аинз Оал Гоун, владыка Великой Гробницы Назарик. В Новом Мире он Король-Заклинатель Колдовского Королевства и самый могущественный маг в мире. Другая его личность известна как Момон, тёмный воин и лидер Тьмы, адамантовой и сильнейшей группы авантюристов этой страны."
   },
 
   {
-    "img": "img/characters/Albedo_Profile.png",
+    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/6/60/Albedo_Profile.png/revision/latest?cb=20180916105542&path-prefix=ru",
     "name": "Альбедо",
     "description": "Смотритель Стражей этажей Великой Гробницы Назарик, отвечающая за общее руководство и контроль за деятельностью семи Стражей этажей, это означает, что она занимает самый высокий пост, среди всех остальных НИП, в Назарике. У неё есть сёстры Нигредо и Рубедо, а её создателем был Табула Смарагдина."
   },
   {
-    "img": "img/characters/Shalltear_Bloodfallen_Profile.png",
+    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/1/1f/Shalltear_Bloodfallen_Profile.png/revision/latest?cb=20180916105026&path-prefix=ru",
     "name": "Шалти Бладфолен",
     "description": "Является истинным вампиром и Стражем первых трёх этажей Великой Гробницы Назарик. Она была создана Пэроронтино."
   },
   {
-    "img": "img/characters/Cocytus.png",
+    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/f/f3/Cocytus_Databook_01.png/revision/latest?cb=20180916105820&path-prefix=ru",
     "name": "Коцит",
     "description": "Страж 5-го этажа Великой Гробницы Назарик. Он представляет собой гибрид богомола и муравья. Он был создан Воином Такэмикадзути."
   }
