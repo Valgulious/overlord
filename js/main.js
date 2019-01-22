@@ -15,7 +15,7 @@ fetch('characters.json')
 
         img.src = characters[counter].img;
         imgDIV.appendChild(img);
-        imgDIV.classList.add("img-character");
+        imgDIV.classList.add('img-character');
 
         var descriptionDIV = document.createElement('div');
         var name = document.createElement('h1');
@@ -25,10 +25,18 @@ fetch('characters.json')
         description.innerText = characters[counter].description;
         descriptionDIV.appendChild(name);
         descriptionDIV.appendChild(description);
-        descriptionDIV.classList.add("desc-character");
+        descriptionDIV.classList.add('desc-character');
+
+        // imgDIV.style.opacity = '0';
+        // descriptionDIV.style.opacity = '0';
 
         mainCharacters.appendChild(imgDIV);
         mainCharacters.appendChild(descriptionDIV);
+
+        // mainCharacters.classList.add('show');
+
+        // imgDIV.classList.add('show');
+        // descriptionDIV.classList.add('show');
 
         var forwardArrow = document.querySelector('#forward');
         forwardArrow.onclick = function () {
@@ -36,9 +44,13 @@ fetch('characters.json')
             if (characters.length <= counter) counter = 0;
             console.log(counter);
 
+            mainCharacters.style.opacity = '0';
             img.src = characters[counter].img;
-            name.innerText = characters[counter].name;
-            description.innerText = characters[counter].description;
+            setTimeout(function () {
+                name.innerText = characters[counter].name;
+                description.innerText = characters[counter].description;
+                mainCharacters.style.opacity = '1';
+            },500);
         };
 
         var backArrow = document.querySelector('#back');

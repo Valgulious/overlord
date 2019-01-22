@@ -34,9 +34,7 @@ footer > h5 {
 
 ::-webkit-scrollbar-track {
 	background:rgba(0,0,0,0);
-}
-::-webkit-scrollbar-track-piece {
-	display: none;
+	opacity: 0;
 }
 
 ::-webkit-scrollbar-thumb {
