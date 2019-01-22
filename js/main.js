@@ -8,6 +8,7 @@ fetch('characters.json')
         return response.json();
     })
     .then(function (characters) {
+        console.log(characters);
         var mainCharacters = document.querySelector('#main-character');
 
         var imgDIV = document.createElement('div');
@@ -46,11 +47,15 @@ fetch('characters.json')
 
             mainCharacters.style.opacity = '0';
             setTimeout(function () {
+                mainCharacters.removeChild(imgDIV);
+                mainCharacters.removeChild(descriptionDIV);
                 img.src = characters[counter].img;
                 name.innerText = characters[counter].name;
                 description.innerText = characters[counter].description;
+                mainCharacters.appendChild(imgDIV);
+                mainCharacters.appendChild(descriptionDIV);
                 mainCharacters.style.opacity = '1';
-            },500);
+            },1000);
         };
 
         var backArrow = document.querySelector('#back');
@@ -59,8 +64,16 @@ fetch('characters.json')
             if (counter === -1) counter = characters.length - 1;
             console.log(counter);
 
-            img.src = characters[counter].img;
-            name.innerText = characters[counter].name;
-            description.innerText = characters[counter].description;
+            mainCharacters.style.opacity = '0';
+            setTimeout(function () {
+                mainCharacters.removeChild(imgDIV);
+                mainCharacters.removeChild(descriptionDIV);
+                img.src = characters[counter].img;
+                name.innerText = characters[counter].name;
+                description.innerText = characters[counter].description;
+                mainCharacters.appendChild(imgDIV);
+                mainCharacters.appendChild(descriptionDIV);
+                mainCharacters.style.opacity = '1';
+            },1000);
         };
     });

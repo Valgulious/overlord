@@ -46,7 +46,7 @@
     /*justify-items: center;*/
     align-items: center;
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 @media (max-width: 600px) {

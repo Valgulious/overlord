@@ -23,19 +23,19 @@
 
 #card1 {
     grid-area: card1;
-    background-image: url(../img/overlord_ranobe.jpg);
+    background-image: url(../img/franchise/overlord_ranobe.jpg);
     background-size: cover;
 }
 
 #card2 {
     grid-area: card2;
-    background-image: url(../img/overlord_manga.jpg);
+    background-image: url(../img/franchise/overlord_manga.jpg);
     background-size: cover;
 }
 
 #card3 {
     grid-area: card3;
-    background-image: url(../img/overlord_anime.jpg);
+    background-image: url(../img/franchise/overlord_anime.jpg);
     background-size: cover;
 }
 
