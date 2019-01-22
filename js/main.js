@@ -45,8 +45,8 @@ fetch('characters.json')
             console.log(counter);
 
             mainCharacters.style.opacity = '0';
-            img.src = characters[counter].img;
             setTimeout(function () {
+                img.src = characters[counter].img;
                 name.innerText = characters[counter].name;
                 description.innerText = characters[counter].description;
                 mainCharacters.style.opacity = '1';
