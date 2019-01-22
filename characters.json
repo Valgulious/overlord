@@ -1,22 +1,22 @@
 [
   {
-    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/5/52/Ainz_Anime_New.png/revision/latest?cb=20181005160139&path-prefix=ru",
+    "img": "img/characters/Ainz_Anime_New.png",
     "name": "Аинз Оал Гоун",
     "description": "Аинз Оал Гоун, ранее известный как Момонга, главный герой серии Overlord. Он гильдмастер Аинз Оал Гоун, владыка Великой Гробницы Назарик. В Новом Мире он Король-Заклинатель Колдовского Королевства и самый могущественный маг в мире. Другая его личность известна как Момон, тёмный воин и лидер Тьмы, адамантовой и сильнейшей группы авантюристов этой страны."
   },
 
   {
-    "img": "https://em.wattpad.com/db7faac41f1e6392ed4da95f79d7cc46ce6da0d7/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f337747624b5763392d5872394e513d3d2d3537333339393639362e313533303237366461376530333536633239393731393631393133342e706e67?s=fit&w=720&h=720",
+    "img": "img/characters/Albedo_Profile.png",
     "name": "Альбедо",
     "description": "Смотритель Стражей этажей Великой Гробницы Назарик, отвечающая за общее руководство и контроль за деятельностью семи Стражей этажей, это означает, что она занимает самый высокий пост, среди всех остальных НИП, в Назарике. У неё есть сёстры Нигредо и Рубедо, а её создателем был Табула Смарагдина."
   },
   {
-    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/1/1f/Shalltear_Bloodfallen_Profile.png/revision/latest?cb=20180916105026&path-prefix=ru",
+    "img": "img/characters/Shalltear_Bloodfallen_Profile.png",
     "name": "Шалти Бладфолен",
     "description": "Является истинным вампиром и Стражем первых трёх этажей Великой Гробницы Назарик. Она была создана Пэроронтино."
   },
   {
-    "img": "https://vignette.wikia.nocookie.net/overlordanime/images/f/f3/Cocytus_Databook_01.png/revision/latest?cb=20180916105820&path-prefix=ru",
+    "img": "img/characters/Cocytus.png",
     "name": "Коцит",
     "description": "Страж 5-го этажа Великой Гробницы Назарик. Он представляет собой гибрид богомола и муравья. Он был создан Воином Такэмикадзути."
   }
